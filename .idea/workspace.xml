@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f137f5f-c6bd-402b-a26c-edfc3ad9418b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ticketType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PositiveTest.java" afterDir="false" />
+    <list default="true" id="4f137f5f-c6bd-402b-a26c-edfc3ad9418b" name="Changes" comment="edit main.java |&#10;add testcase">
+      <change afterPath="$PROJECT_DIR$/src/test/java/NegativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,52 +39,52 @@
     "last_opened_file_path": "F:/НРТК/mdk_01.02/backTicket"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PositiveTest.normalDataTrainTicketTest">
-    <configuration name="PositiveTest.normalDataBusTicketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NegativeTest.InvalidBuyingDateTest">
+    <configuration name="NegativeTest.EmptyFiledTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backTicketTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PositiveTest" />
-      <option name="METHOD_NAME" value="normalDataBusTicketTest" />
+      <option name="MAIN_CLASS_NAME" value="NegativeTest" />
+      <option name="METHOD_NAME" value="EmptyFiledTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveTest.normalDataCinemaTicketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeTest.InvalidBuyingDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backTicketTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PositiveTest" />
-      <option name="METHOD_NAME" value="normalDataCinemaTicketTest" />
+      <option name="MAIN_CLASS_NAME" value="NegativeTest" />
+      <option name="METHOD_NAME" value="InvalidBuyingDateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveTest.normalDataConcertType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeTest.InvalidBuyingEndingDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backTicketTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PositiveTest" />
-      <option name="METHOD_NAME" value="normalDataConcertType" />
+      <option name="MAIN_CLASS_NAME" value="NegativeTest" />
+      <option name="METHOD_NAME" value="InvalidBuyingEndingDate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveTest.normalDataFlightsTicketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeTest.InvalidEndingDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backTicketTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PositiveTest" />
-      <option name="METHOD_NAME" value="normalDataFlightsTicketTest" />
+      <option name="MAIN_CLASS_NAME" value="NegativeTest" />
+      <option name="METHOD_NAME" value="InvalidEndingDateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositiveTest.normalDataTrainTicketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeTest.InvalidPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backTicketTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PositiveTest" />
-      <option name="METHOD_NAME" value="normalDataTrainTicketTest" />
+      <option name="MAIN_CLASS_NAME" value="NegativeTest" />
+      <option name="METHOD_NAME" value="InvalidPriceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PositiveTest.normalDataTrainTicketTest" />
-        <item itemvalue="JUnit.PositiveTest.normalDataFlightsTicketTest" />
-        <item itemvalue="JUnit.PositiveTest.normalDataConcertType" />
-        <item itemvalue="JUnit.PositiveTest.normalDataBusTicketTest" />
-        <item itemvalue="JUnit.PositiveTest.normalDataCinemaTicketTest" />
+        <item itemvalue="JUnit.NegativeTest.InvalidBuyingDateTest" />
+        <item itemvalue="JUnit.NegativeTest.InvalidBuyingEndingDate" />
+        <item itemvalue="JUnit.NegativeTest.EmptyFiledTest" />
+        <item itemvalue="JUnit.NegativeTest.InvalidPriceTest" />
+        <item itemvalue="JUnit.NegativeTest.InvalidEndingDateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +109,21 @@
       <option name="presentableId" value="Default" />
       <updated>1653584449421</updated>
     </task>
+    <task id="LOCAL-00001" summary="edit main.java |&#10;add testcase">
+      <created>1653588881178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653588881178</updated>
+    </task>
+    <task id="LOCAL-00002" summary="edit main.java |&#10;add testcase">
+      <created>1653588971024</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653588971024</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,5 +136,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit main.java |&#10;add testcase" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit main.java |&#10;add testcase" />
   </component>
 </project>

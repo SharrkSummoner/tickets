@@ -20,7 +20,7 @@ public class PositiveTest {
                 LocalDateTime.parse("2022-05-10 15:00", formatter),
                 LocalDateTime.parse("2022-05-27 15:00", formatter));
         String result = String.valueOf(actualResult);
-        Assert.assertEquals("1800.0", result);
+        Assert.assertEquals("1080.0", result);
     }
 
     @Test

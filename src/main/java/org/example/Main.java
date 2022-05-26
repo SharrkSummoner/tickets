@@ -49,7 +49,7 @@ public class Main {
         double price = scanner.nextDouble();
 
         price = createTicket(ticket, description, price, ownerName, buyingDate, endingDate);
-        System.out.println(price);
+        System.out.printf("%.2f", price);
     }
 
     public static double createTicket(ticketType ticket,
